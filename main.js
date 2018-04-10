@@ -13,8 +13,8 @@ $(document).ready(function(){
       $.ajax({
         url:'https://api.github.com/users/'+username+'/repos',
         data:{
-          client_id:'d9308aacf8b204d361fd',
-          client_secret:'62551cc02cee983fff0bac41baf170eb5a312c1c',
+          client_id:'c3de2fa4ec216efa3f45',
+          client_secret:'8cfb86946d51970a9910087217d1195adc06a825',
           sort: 'created: asc',
           per_page: 5
         }
